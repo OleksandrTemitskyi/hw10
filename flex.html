@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multi-level menu</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <ul class="level">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="#">Homeworks</a>
+                    <ul class="second-level">
+                        <li>
+                            <a href="table.html">Table</a>
+                        </li>
+                        <li>
+                            <a href="#">Inline-block</a>
+                        </li>
+                        <li><a href="#">Float</a>
+                        </li>
+                        <li>
+                            <a href="flex.html">Layouts</a>
+                            <ul class="three-level">
+                                <li>
+                                    <a href="flex.html">Flex</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="wrapper">
+        <header class="header">
+          <div class="container header-container d-flex">
+            <h1>Amelia F</h1>
+            <ul class="header-list d-flex">
+              <li><a class="active" href="#Home">Home</a></li>
+              <li><a class="active" href="#About_Us">About Us</a></li>
+              <li><a class="active" href="#How_we_are_working">How we are working</a></li>
+              <li><a class="active" href="#Our_works">Our works</a></li>
+              <li><a class="active" href="#Contacts">Contacts</a></li>
+            </ul>
+          </div>
+        </header>
+    
+        <main>
+          <section class="flowers">
+            <div class="container">
+              <div class="flowers-cards d-flex">
+    
+                <div class="fl-inner style=670px ">
+                  <a class="Logo2" href="#">
+                    <img src="images/Logo2.svg" alt="Logo2" width="434" height="86">
+                  </a>
+                  <h2 class="fl-inner-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nesciunt autem odio, ad corporis optio ipsum harum odit vel maiores error repellendus ullam repudiandae sit praesentium provident officiis ducimus numquam.</h2>
+                  <div class="btn d-flex">
+                  <button class="first">Order a bouquet</button>
+                  <button class="two">Florist help</button>
+                </div>
+              </div>
+                <div class="fl-image" style="height: 670;">
+                <img src="images/Amelia.jpg" alt="content image" width="540" height="670">
+                </div>
+              </div>
+            </div>
+            <div class="about-inner container">
+              <a class="Logo3" href="#">
+                <img src="images/Logo3.svg" alt="Logo3" width="133" height="34"></a>
+                <h2 class="about-us">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nesciunt autem odio, ad corporis optio ipsum harum odit vel maiores error repellendus ullam repudiandae sit praesentium provident officiis ducimus numquam.</h2>
+              </div>
+          </section>
+    
+          <section class="middle">
+            <div class="container">
+    
+                  <div class="md-item d-flex">
+                    <div>
+                  <img src="images/prices.svg" alt="cont" width="80" height="79">
+                  <h3>The best prices</h3>
+                </div>
+                <div>
+                  <img src="images/selection.svg" alt="cont" width="80" height="79">
+                  <h3>Individual selection</h3>
+                </div>
+                <div>
+                  <img src="images/delivery.svg" alt="cont" width="80" height="79">
+                  <h3>Fast delivery</h3>
+                </div>
+                <div>
+                  <img src="images/flowers.svg" alt="cont" width="80" height="79">
+                  <h3>Always fresh flowers</h3>
+                </div>
+                <div>
+                  <img src="images/bonus.svg" alt="cont" width="80" height="79">
+                  <h3>Bonus system</h3>
+                </div>          
+                  </div>
+              
+            </div>
+          </section>
+    
+          <section class="working">
+            <div class="container container-work d-flex">
+            <div class="glass">
+              <img src="images/Vase.jpg" alt="vase" width="539" height="560">
+            </div>
+            <div class="are-working">
+              <div class="test">
+              <a  class="Logo4" href="#">
+                <img src="images/Logo4.svg" alt="working" width="403" height="38">
+              </a></div>
+              <h4 class="works">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nesciunt autem odio, ad corporis optio ipsum harum odit vel maiores error repellendus ullam repudiandae sit praesentium provident officiis ducimus numquam.</h4>
+            </div>
+          </div>
+          </section>
+    
+          <section class="cards">
+            <div class="container">
+              <div class="container-cards">
+              <div class="our">
+                <a class="Logo5" href="#">
+                  <img src="images/Logo5.svg" alt="our" width="403" height="38">
+                </a></div>
+            <div class="card-inner d-flex">
+              <div class="card"><img src="images/f1.jpg" alt="f1" width="320" height="402"><h3>Bouquet "Florence"</h3></div>
+              <div class="card"><img src="images/f2.jpg" alt="f2" width="320" height="402"><h3>Bouquet "Florence"</h3></div>
+              <div class="card"><img src="images/f3.jpg" alt="f3" width="320" height="402"><h3>Bouquet "Florence"</h3></div>
+            </div>
+            
+          </div>
+          </div>
+          </section>
+        </main>
+        <footer class="footer">
+          <div class="container">
+            <div class="container-footer">
+              <a class="logo" href="#">
+                <img src="images/Logo6.svg" alt="logo" width="145" height="35">
+              </a>
+              <h2>Contacts</h2>
+              <h5 class="f-text">+380517328964</h5>
+              <h5 class="f-text">+380517328964</h5>
+              <h5 class="f-text">Kharkov, Sumskaya st. 115</h5>
+              <ul class="messenger d-flex">
+                <li><a class="active" href="#instagram"><img src="images/instagram.svg" alt="insta" width="24" height="23"></a></li>
+                <li><a class="active" href="#telegram"><img src="images/telegram.svg" alt="telega" width="24" height="23"></a></li>
+                <li><a class="active" href="#viber"><img src="images/viber.svg" alt="telega" width="24" height="23"></a></li>
+              </ul>
+            </div>
+            <h6>(c) Footer. 2023</h6>
+          </div>
+        </footer>
+      </div>
+
+</body>
+</html>
